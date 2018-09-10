@@ -5,14 +5,21 @@ h1 {
   margin-bottom: 100px;
 
 }
+.row {
+}
 .container {
+  position: relative;
   text-align: center;
-  height:300px;
+  height: 400px;
+  width: 400px;
   margin-bottom: 100px;
+  float: left;
 }
 .petal {
   position: absolute;
-  transform-origin: top;
+  top: 200px;
+  left: 200px;
+  transform-origin: top center;
 
   display: inline-block;
   background: pink;
@@ -20,4 +27,6 @@ h1 {
   border: solid 1px #666;
   opacity: 0.8;
 }
-
+.shell .petal {
+  transform-origin: inherit;
+}
