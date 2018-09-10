@@ -3,7 +3,7 @@ console.log('hello world');
 let row = document.createElement('div');
 row.className = 'row';
 
-let classes = ['flower', 'shell', 'paper'];
+let classes = ['flower', 'paper'];
 let angles = [137.5, 100, 211, 157, 13, 21, 47]; // avoid factors of 360
 
 for (var j=1; j < 50; ++j) {
@@ -16,7 +16,7 @@ for (var j=1; j < 50; ++j) {
         let el = document.createElement('span');
         el.className = 'petal';
         let deg = i*(angles[d]);
-        let height = i*100/50;
+        let height = i*1.5;
         el.setAttribute('style', `height: ${height}px; width: ${height/5}px; transform: rotate(${deg}deg); z-index: ${-i}`);
 
         let numColors = j; // no spirals
