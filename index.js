@@ -3,12 +3,12 @@ console.log('hello world');
 let row = document.createElement('div');
 row.className = 'row';
 
-let classes = ['flower', 'shell'];
-let angles = [137.5, 100];
+let classes = ['flower', 'shell', 'paper'];
+let angles = [137.5, 100, 211, 157, 13, 21, 47]; // avoid factors of 360
 
-for (var j=1; j < 100; ++j) {
-  for (var d=0; d < angles.length; ++d) {
-    for (var k=0; k < classes.length; ++k) {
+for (var j=1; j < 50; ++j) {
+  for (var k=0; k < classes.length; ++k) {
+    for (var d=0; d < angles.length; ++d) {
       let container = document.createElement('div');
       container.className = `container ${classes[k]}`;
 

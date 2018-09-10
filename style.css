@@ -30,3 +30,6 @@ h1 {
 .shell .petal {
   transform-origin: inherit;
 }
+.paper .petal {
+  border-radius: 0;
+}
