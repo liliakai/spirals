@@ -1,0 +1,23 @@
+h1 {
+  font-size: 70px;
+  color: #999;
+  font-family: Courier;
+  margin-bottom: 100px;
+
+}
+.container {
+  text-align: center;
+  height:300px;
+  margin-bottom: 100px;
+}
+.petal {
+  position: absolute;
+  transform-origin: top;
+
+  display: inline-block;
+  background: pink;
+  border-radius: 50%;
+  border: solid 1px #666;
+  opacity: 0.8;
+}
+
