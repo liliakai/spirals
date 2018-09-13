@@ -1,9 +1,10 @@
-h1 {
-  font-size: 70px;
+body {
   color: #999;
   font-family: Courier;
+}
+h1 {
+  font-size: 70px;
   margin-bottom: 100px;
-
 }
 .row {
 }
@@ -12,6 +13,9 @@ h1 {
   text-align: center;
   height: 300px;
   width: 300px;
+  float: left;
+}
+.note {
   float: left;
 }
 .petal {
