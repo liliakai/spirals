@@ -102,4 +102,4 @@ function artisanalSpirals() {
 }
 
 artisanalSpirals();
-generateSpirals();
+//generateSpirals();
